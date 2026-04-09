@@ -1,0 +1,4 @@
+__pycache__/
+datetime_release_env/
+*.code-workspace
+archive/
