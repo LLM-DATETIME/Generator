@@ -165,7 +165,7 @@ class Generate:
 
         # set end date
         if end_date is None:
-            end_date = datetime(9999, 12, 31, 0, 0, 0)
+            end_date = datetime(9999, 12, 31, 23, 59, 59)
         else:
             if not isinstance(end_date, datetime):
                 end_date = datetime.fromisoformat(end_date)
