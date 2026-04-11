@@ -367,6 +367,22 @@ class Generate:
                     # date value out of range
                     continue
 
+            elif output == "add.days.1-10":
+                try:
+                    num_days = randint(1, 10)
+                    output_dt = input_dt + timedelta(days=num_days)
+
+                    # NOTE: output is a dict which are the arguments to the prompt generator
+                    input_str = {"input_sequence" : input_str
+                                 , "num_days" : num_days
+                                 # METHODOLOGY: add "date" field for fine-tuning dataset exclusions
+                                 , "date" : input_dt.date().isoformat()
+                                 }
+                    output_str = output_dt.isoformat()
+                except OverflowError as e:
+                    # date value out of range
+                    continue
+            
             elif output == "add.days.1-100":
                 try:
                     num_days = randint(1, 100)
