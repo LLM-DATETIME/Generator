@@ -2,7 +2,7 @@
 
 A benchmark for evaluating LLM primitive temporal translation and reasoning capabilities.
 
-**Paper:** *PRIMETIME : Limits of LLMs in Temporal Primitives* (under review, NeurIPS 2026, Evaluations & Datasets Track)
+**Paper:** *PRIMETIME: Limits of LLMs in Temporal Primitives* (under review, NeurIPS 2026, Evaluations & Datasets Track)
 
 ## Overview
 
