@@ -1,12 +1,12 @@
 # DATETIME
 
-A benchmark for evaluating LLM temporal translation and reasoning capabilities.
+A benchmark for evaluating LLM primitive temporal translation and reasoning capabilities.
 
-**Paper:** *DATETIME: A Benchmark for LLM Temporal Translation and Reasoning* (under review, NeurIPS 2026, Datasets & Benchmarks Track)
+**Paper:** *PRIMETIME : Limits of LLMs in Temporal Primitives* (under review, NeurIPS 2026, Evaluations & Datasets Track)
 
 ## Overview
 
-DATETIME is a fully synthetic benchmark for evaluating how Large Language Models handle datetimes. It covers:
+PRIMETIME is a fully synthetic benchmark for evaluating how Large Language Models handle datetimes. It covers:
 
 - **Translation**: converting messy natural-form datetimes to ISO 8601
 - **Addition**: adding a fixed or variable number of days to a datetime
