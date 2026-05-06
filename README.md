@@ -194,5 +194,4 @@ python3 datetime_natural_form_tasks.py add.day.250.i 500 \
 Stay tuned.
 
 ## License
-
-[TBD]
+Apache 2.0
