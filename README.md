@@ -1,8 +1,4 @@
-# DATETIME
-
-A benchmark for evaluating LLM primitive temporal translation and reasoning capabilities.
-
-**Paper:** *PRIMETIME: Limits of LLMs in Temporal Primitives* (under review, NeurIPS 2026, Evaluations & Datasets Track)
+# PRIMETIME
 
 ## Overview
 
@@ -13,6 +9,9 @@ PRIMETIME is a fully synthetic benchmark for evaluating how Large Language Model
 - **Event Planning**: compositional tasks requiring date addition and comparison in a conversational context
 
 The generator produces ground-truth datasets with high variation in surface forms — millions of natural representations of the same underlying datetime. Generated datasets can be used to fine-tune and evaluate models on translation and multi-step reasoning tasks in the datetime domain.
+
+## Related Paper
+PRIMETIME: Limits of LLMs in Temporal Primitives (under review, NeurIPS 2026, Evaluations & Datasets Track).
 
 ## Requirements
 
