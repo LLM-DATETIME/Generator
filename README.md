@@ -1,4 +1,4 @@
-# PRIMETIME
+# PRIMETIME Generator
 
 ## Overview
 
